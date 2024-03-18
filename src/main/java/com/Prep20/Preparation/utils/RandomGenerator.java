@@ -8,6 +8,6 @@ public class RandomGenerator {
 
     public static int[] generateRandomArray(){
         Random random = new Random();
-        return random.ints(CoreConstants.RANDOM_ARRAY_SIZE,CoreConstants.RANDOM_ARRAY_START_INTEGER, CoreConstants.RANDOM_ARRAY_START_INTEGER).toArray();
+        return random.ints(CoreConstants.RANDOM_ARRAY_SIZE,CoreConstants.RANDOM_ARRAY_START_INTEGER, CoreConstants.RANDOM_ARRAY_END_INTEGER).toArray();
     }
 }
